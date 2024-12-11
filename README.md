@@ -40,7 +40,7 @@ To use this project, ensure you have the following installed:
 Run the scraper with the desired search query and starting page. Example:
 
   ```bash
-scrapy crawl ebay_scraper -a search="Wireless pc keyboard" -a start_page=1 -o output.json
+scrapy crawl ebay_scraper -a search="Wireless pc keyboard" -a start_page=1 -o products.json
 
 ## Command-Line Parameters
 
